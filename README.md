@@ -1,4 +1,4 @@
-![Spotiforce](img\Spotiforce.png)
+![Spotiforce](https://github.com/SebastianMM-96/Spotiforce/blob/main/img/Spotiforce.png)
 
 # Spotiforce
 ## Salesforce Music App
