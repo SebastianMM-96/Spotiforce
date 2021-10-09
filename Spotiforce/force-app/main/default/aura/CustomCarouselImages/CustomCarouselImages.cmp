@@ -1,0 +1,32 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    <!--Component Start-->
+    <div class="slds-m-around--xx-large">
+        <h3 class="header">New Album's</h3>
+        <lightning:carousel disableAutoRefresh="true">
+            <lightning:carouselImage
+                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vw3j"
+                                     header = "Justin Timberlake"
+                                     description = "The 20/20 Experience"
+                                     alternativeText = "First Album cover."
+                                     target = "_blank"
+                                     href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
+            </lightning:carouselImage>
+            <lightning:carouselImage
+                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vw3o"
+                                     header = "G-Eazy"
+                                     description = "These Things Happen"
+                                     alternativeText = "Second Album cover"
+                                     target = "_blank"
+                                     href = "https://open.spotify.com/album/6wDc63NhKy2PyXdbhkRmrl">
+            </lightning:carouselImage>
+            <lightning:carouselImage
+                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vw3t"
+                                     header = "Maroon 5"
+                                     description = "Overexposed Commentary"
+                                     alternativeText = "Third Album cover"
+                                     href = "https://open.spotify.com/album/3XGBx5OsOELJAWa1vE7N2b">
+            </lightning:carouselImage>
+        </lightning:carousel>
+    </div>
+    <!--Component End-->
+</aura:component>
