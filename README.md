@@ -1,4 +1,4 @@
-![Spotiforce](img\Spotiforce.png)
+![Spotiforce](https://github.com/SebastianMM-96/Spotiforce/blob/main/img/Spotiforce.png)
 
 # [Spotiforce](https://spotiforce-sdmm-developer-edition.na162.force.com/spotiforce/s/)
 
@@ -13,7 +13,7 @@ We want to create a new System where users (with subscription) can see and obtai
 
 The scheme of our application is similar to the one shown in the following image:
 
-![Schema](img\Spotiforce-Schema.png)
+![Schema](https://github.com/SebastianMM-96/Spotiforce/blob/main/img/Spotiforce-Schema.png)
 
 ##### **Constraints**
 
