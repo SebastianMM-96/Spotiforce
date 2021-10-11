@@ -1,0 +1,17 @@
+<aura:component implements="force:appHostable, forceCommunity:availableForAllPageTypes, flexipage:availableForAllPageTypes" controller="GetSubscriptionInformation">
+    <aura:attribute type="Contact[]" name="acctList"/>
+    <aura:attribute name="mycolumns" type="List"/>
+    <aura:attribute name="selectedAccts" type="List"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    
+    <div class="slds-box slds-theme_default">
+        <h3 class="header">Some of our Premium users</h3>
+        <lightning:datatable data="{! v.acctList }" 
+                             columns="{! v.mycolumns }" 
+                             keyField="id"
+        />
+      
+        
+    </div>
+</aura:component>

@@ -1,0 +1,58 @@
+<aura:component implements="lightning:availableForFlowScreens, forceCommunity:availableForAllPageTypes, flexipage:availableForAllPageTypes">
+    <ltng:require styles="{! $Resource.bootstrap + '/bootstrap-5.1.2-dist/css/bootstrap.min.css'}" 
+        scripts="{!join(',', 
+            $Resource.jquery , 
+            $Resource.bootstrap + '/bootstrap-5.1.2-dist/js/bootstrap.min.js')}"
+        afterScriptsLoaded="{!c.scriptsLoaded}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="{! $Resource.Spotiforce + '/Spotiforce.png'}" alt="Logo" style="width:40px;" class="rounded-pill" />
+          </a>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-5 bg-primary text-white text-center hero">
+        <h1>Welcome to Spotiforce</h1>
+        <p>Spotiforce is a Salesforce application for music.</p>
+        <button type="button" href="https://spotiforce-sdmm-developer-edition.na162.force.com/spotiforce" target="_blank" class="btn btn-dark">Let's go!</button>
+      </div>
+        
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="{! $Resource.songs + '/songs.jpg'}" alt="Card image" style="width:100%" />
+                <div class="card-body">
+                  <h4 class="card-title">Search for music</h4>
+                  <p class="card-text">Search your favorite songs on our site.</p>
+                  <a href="#" class="btn btn-primary">Sign up</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="{! $Resource.artist + '/artist.jpg'}" alt="Card image" style="width:100%" />
+                <div class="card-body">
+                  <h4 class="card-title">Find your favorite artist</h4>
+                  <p class="card-text">Your favorite artists in one place.</p>
+                  <a href="#" class="btn btn-primary">Sign up</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="{! $Resource.albums + '/albums.jpg'}" alt="Card image" style="width:100%" />
+                <div class="card-body">
+                  <h4 class="card-title">Find your favorite album</h4>
+                  <p class="card-text">Find the latest albums with the songs that you like the most.</p>
+                  <a href="#" class="btn btn-primary">Sign up</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</aura:component>	
