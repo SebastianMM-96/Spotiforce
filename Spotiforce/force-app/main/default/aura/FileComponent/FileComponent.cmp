@@ -1,4 +1,4 @@
-<aura:component controller="MediaFileComponentController" implements="flexipage:availableForRecordHome,force:hasRecordId, forceCommunity:availableForAllPageTypes" access="global" >
+<aura:component controller="MediaFileComponentController" implements="flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
     
     <aura:attribute name="mediaFiles" type="Object"/>
     <aura:attribute name="mycolumns" type="List"/>

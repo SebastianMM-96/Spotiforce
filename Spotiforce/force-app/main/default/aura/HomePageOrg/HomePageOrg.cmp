@@ -1,4 +1,4 @@
-<aura:component implements="lightning:availableForFlowScreens, forceCommunity:availableForAllPageTypes, flexipage:availableForAllPageTypes">
+<aura:component implements="lightning:availableForFlowScreens,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes">
     <ltng:require styles="{! $Resource.bootstrap + '/bootstrap-5.1.2-dist/css/bootstrap.min.css'}" 
         scripts="{!join(',', 
             $Resource.jquery , 
@@ -55,4 +55,4 @@
           </div>
         </div>
       </div>
-</aura:component>	
+</aura:component>
