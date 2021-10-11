@@ -2,4 +2,4 @@
     <div class="grid">
         <lightning:button variant="success" label="Visit the repo here..." onclick="{! c.handleClick }" />
     </div>
-</aura:component>	
+</aura:component>

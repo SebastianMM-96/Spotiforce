@@ -1,4 +1,4 @@
-<aura:component implements="force:appHostable, forceCommunity:availableForAllPageTypes, flexipage:availableForAllPageTypes" controller="GetSubscriptionInformation">
+<aura:component implements="force:appHostable,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes" controller="GetSubscriptionInformation">
     <aura:attribute type="Contact[]" name="acctList"/>
     <aura:attribute name="mycolumns" type="List"/>
     <aura:attribute name="selectedAccts" type="List"/>

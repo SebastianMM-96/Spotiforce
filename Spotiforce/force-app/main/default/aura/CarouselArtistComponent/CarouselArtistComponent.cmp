@@ -1,0 +1,37 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    <!--Component Start-->
+    <div class="slds-m-around--xx-large">
+        <h3 class="header">New Album's</h3>
+        <lightning:carousel disableAutoRefresh="true">
+            <lightning:carouselImage
+                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxCm"
+                                     header = "Artist"
+                                     description = "Justin Timberlake"
+                                     target = "_blank"
+                                     href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
+            </lightning:carouselImage>
+            <lightning:carouselImage
+                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxCr"
+                                     header = "Artist"
+                                     description = "Eminem"
+                                     target = "_blank"
+                                     href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
+            </lightning:carouselImage>
+            <lightning:carouselImage
+                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxCw"
+                                     header = "Artist"
+                                     description = "NF"
+                                     target = "_blank"
+                                     href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
+            </lightning:carouselImage>
+            <lightning:carouselImage
+                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxDG"
+                                     header = "Artist"
+                                     description = "G-Eazy"
+                                     target = "_blank"
+                                     href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
+            </lightning:carouselImage>
+        </lightning:carousel>
+    </div>
+    <!--Component End-->
+</aura:component>

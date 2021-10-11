@@ -1,4 +1,4 @@
-<aura:component implements="lightning:availableForFlowScreens, forceCommunity:availableForAllPageTypes, flexipage:availableForAllPageTypes" controller="CommunitySelfRegController">
+<aura:component implements="lightning:availableForFlowScreens,forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes" controller="CommunitySelfRegController">
     <aura:attribute name="email" type="String" default=""/>
     <aura:attribute name="fname" type="String" default=""/>
     <aura:attribute name="lname" type="String" default=""/>
