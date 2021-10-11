@@ -1,7 +1,7 @@
 <aura:component implements="forceCommunity:availableForAllPageTypes">
     <!--Component Start-->
     <div class="slds-m-around--xx-large">
-        <h3 class="header">New Album's</h3>
+        <h3 class="header">Related Artist</h3>
         <lightning:carousel disableAutoRefresh="true">
             <lightning:carouselImage
                                      src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxCm"
