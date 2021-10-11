@@ -1,5 +1,15 @@
 ![Spotiforce](img\Spotiforce.png)
 
+![badge](https://img.shields.io/github/stars/SebastianMM-96/Spotiforce?style=social)
+
+![badge](https://img.shields.io/github/forks/SebastianMM-96/Spotiforce?style=social)
+
+![badge](https://img.shields.io/github/commit-activity/w/SebastianMM-96/Spotiforce?style=plastic)
+
+![BADGE](https://img.shields.io/github/commit-activity/w/SebastianMM-96/Spotiforce/feature/Spotiforce)
+
+![bad](https://img.shields.io/github/last-commit/SebastianMM-96/Spotiforce)
+
 # [Spotiforce](https://spotiforce-sdmm-developer-edition.na162.force.com/spotiforce/s/)
 
 ## About the app
