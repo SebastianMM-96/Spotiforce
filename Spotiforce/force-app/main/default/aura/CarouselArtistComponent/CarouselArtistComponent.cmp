@@ -4,28 +4,28 @@
         <h3 class="header">Related Artist</h3>
         <lightning:carousel disableAutoRefresh="true">
             <lightning:carouselImage
-                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxCm"
+                                     src="{! $Resource.jt + '/jt.jpg'}"
                                      header = "Artist"
                                      description = "Justin Timberlake"
                                      target = "_blank"
                                      href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
             </lightning:carouselImage>
             <lightning:carouselImage
-                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxCr"
+                                     src="{! $Resource.eminem + '/eminem.jpg'}"
                                      header = "Artist"
                                      description = "Eminem"
                                      target = "_blank"
                                      href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
             </lightning:carouselImage>
             <lightning:carouselImage
-                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxCw"
+                                     src="{! $Resource.nf + '/nf.jpg'}"
                                      header = "Artist"
                                      description = "NF"
                                      target = "_blank"
                                      href = "https://open.spotify.com/album/41br7lBSZOr9RjJAjk0om6">
             </lightning:carouselImage>
             <lightning:carouselImage
-                                     src="https://softtek-9f-dev-ed--c.documentforce.com/servlet/servlet.FileDownload?file=0155e000000vxDG"
+                                     src="{! $Resource.geazy + '/geazy.jpg'}"
                                      header = "Artist"
                                      description = "G-Eazy"
                                      target = "_blank"

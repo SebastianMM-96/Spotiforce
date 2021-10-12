@@ -1,0 +1,15 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="fields"
+                    type="String[]"
+                    default="['Name', 'Date_of_Release__c','Artist__c']"/>
+
+    <!-- Displays toast notifications -->
+    <lightning:notificationsLibrary aura:id="notifLib" />
+    <h3 class="header">Upload your new brand album</h3>
+    <lightning:recordForm
+        objectApiName="Album__c"
+        fields="{!v.fields}"
+        onerror="{!c.handleError}"
+        onsuccess="{!c.handleSuccess}"
+    />
+</aura:component>
