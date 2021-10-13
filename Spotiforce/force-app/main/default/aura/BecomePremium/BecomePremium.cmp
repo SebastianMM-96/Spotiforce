@@ -1,0 +1,7 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes,force:appHostable">
+    <lightning:recordEditForm aura:id="recordEditForm" objectApiName="Contact">
+            <lightning:messages />
+            <lightning:inputField fieldName="Name" />
+            <lightning:button class="slds-m-top_small" type="submit" label="Create new" />
+    </lightning:recordEditForm>
+</aura:component>

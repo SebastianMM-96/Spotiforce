@@ -1,11 +1,12 @@
 <aura:component implements="lightning:availableForFlowScreens,lightning:availableForFlowActions" access="global" >
     <aura:attribute name="showUI" type="Boolean" default="true"/>
+    <aura:attribute name="val" type="Integer" default="50"/>
     <aura:attribute name="muted" type="Boolean" default="false"/>
     <aura:attribute name="loop" type="Boolean" default="false"/>
     <aura:attribute name="_priv_usedInLocalAction" access="private" type="Boolean" default="false"/>
-
     <audio aura:id="audioPlayer" src="{!$Resource.suittie + '/suitTie.mp3'}" type="audio/mp3" autoplay="true" />
     <aura:if isTrue="{!v.showUI}">
         <lightning:buttonIcon alternativeText="{!v.muted ? 'Muted' : 'Playing'}" aura:id="muteIcon" size="x-large" iconName="{!v.muted ? 'utility:volume_off' : 'utility:volume_high'}" onclick="{!c.toggleSound}"/>
+        <lightning:slider label="Volume" value="{!v.val}"/>
     </aura:if>
 </aura:component>
